@@ -53,3 +53,4 @@ I have used some code from AdminLTE for the chat UI. The HTML and dependent CSS.
 The private chat box has been taken from [Gurdeep Osahan](http://bootsnipp.com/Gurdeep%20Osahan).
 # nodechat
 # nodechat
+# Chat
