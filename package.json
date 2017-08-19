@@ -1,10 +1,10 @@
 {
-  "name": "chat",
+  "name": "chat-master",
   "version": "1.0.0",
   "description": "Chat application for local usage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sudheeshshetty/Chat"
+    "url": "git+https://github.com/araqelyan398555/nodechat.git"
   },
   "main": "server.js",
   "scripts": {
@@ -28,5 +28,10 @@
     "db": {
       "url": "mongodb://localhost:27017/chat"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/araqelyan398555/nodechat/issues"
+  },
+  "homepage": "https://github.com/araqelyan398555/nodechat#readme",
+  "devDependencies": {}
 }

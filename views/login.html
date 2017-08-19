@@ -6,25 +6,26 @@
     <div class="container inner_container">
         <div class="row text-center Absolute-Cente is-Responsive">
             <div class="page-header">
-                <h1>CHAT</h1>
+                <h1>Секретний Чат</h1>
             </div>
             <form>
                 <div class="form-group input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                    <input class="form-control" type="text" name='handle' placeholder="handle" ng-model="login_data.handle"/> 
+                    <input class="form-control" type="text" name='handle' placeholder="handle" ng-model="login_data.handle"/>
                 </div>
                 <div class="form-group input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                    <input class="form-control" type="password" name='password' placeholder="password" ng-model="login_data.password" my-enter="login()"/>     
+                    <input class="form-control" type="password" name='password' placeholder="password" ng-model="login_data.password" my-enter="login()"/>
                 </div>
                 <div class="checkbox">
-                    <label><input type="checkbox" value="" checked>Remember me</label>
+                    <label><input type="checkbox" value="" checked>Запомни меня</label>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" ng-click="login()"><span class="glyphicon glyphicon-off"></span>
-                    Login</button>
-                <div class="form-group pull-left"><a href="#">Forgot Password?</a>
+                    Логин</button>
+                <div class="form-group pull-left"><a href="#">Забыли пароль?</a>
                 </div>
-                <div class="form-group pull-right">Not a member?<a href="#" data-toggle="modal" data-target="#myModal">Register</a>
+                <div class="form-group pull-right">Вы не зарегистрированы?<a href="#" data-toggle="modal" data-target="#myModal">Регистрация
+</a>
                 </div>
             </form>
         </div>
